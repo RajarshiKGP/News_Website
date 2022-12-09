@@ -13,3 +13,10 @@
 .modal-content {
   padding: 17px;
 }
+
+.col-sm-6:hover {
+  position: relative;
+  top: -8px;
+  left: -8px;
+  background-color: rgb(191, 245, 64);
+}
