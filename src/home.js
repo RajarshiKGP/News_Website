@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './App.css';
+import './home.css';
 
 const Home = () => {
     const [data, setData] = useState([]);
     const fetchData = () => {
-        axios.get("https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=d3b17167372c45ccbe9ff25cbf67b747")
+        axios.get("https://saurav.tech/NewsAPI/top-headlines/category/general/in.json")
             .then(response => {
                 setData(response.data.articles)
             })

@@ -9,3 +9,7 @@
   background-color: rgb(206, 251, 206);
   border-radius: 20px;
 }
+
+.modal-content {
+  padding: 17px;
+}
