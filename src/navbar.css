@@ -1,0 +1,27 @@
+.Container {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    justify-content: left;
+    background-color: rgb(248, 195, 97);
+    position: fixed;
+    z-index: 1;
+}
+
+.Container img {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 30px;
+}
+
+.Container p {
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 40px;
+    top: 7.5px;
+}

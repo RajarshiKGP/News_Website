@@ -14,9 +14,9 @@ const Home = () => {
     fetchData();
 
     return (
-        <div className="App">
-            <div className="card my-5">
-                <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" style={{ marginLeft: "5px", marginRight: "5px", marginBottom: "20px", backgroundColor: "rgb(253, 247, 224)", height: "100%", justifyContent: "center", padding: "10px" }}>
+        <div className="app">
+            <div className="card">
+                <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" style={{ marginLeft: "5px", marginTop: "40px", marginRight: "5px", backgroundColor: "rgb(253, 247, 224)", height: "100%", justifyContent: "center", padding: "10px", position: "relative", top: "22px" }}>
                     {data && data.map((obj, index) => {
                         return (
                             <div className="col-sm-6 mx-5" >
